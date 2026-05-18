@@ -7,3 +7,62 @@
   padding: 25px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
+
+.filterButtons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filterBtn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f3d6df;
+  color: #7a3b4c;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filterBtn:hover {
+  background-color: #e9b8c7;
+}
+
+.active {
+  background-color: #d96b8a;
+  color: white;
+}
+
+.deleteButtons {
+  display: flex;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.deleteAllBtn,
+.deleteDoneBtn {
+  flex: 1;
+  padding: 11px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.deleteAllBtn {
+  background-color: #e57373;
+}
+
+.deleteDoneBtn {
+  background-color: #c75c7a;
+}
+
+.deleteAllBtn:hover {
+  background-color: #d94f4f;
+}
+
+.deleteDoneBtn:hover {
+  background-color: #ad4564;
+}
