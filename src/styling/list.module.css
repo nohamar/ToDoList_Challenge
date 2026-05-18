@@ -1,0 +1,52 @@
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.taskCard {
+  background-color: #fff7fa;
+  border: 1px solid #f0d5dd;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.taskText {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.completedText {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.taskActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status {
+  font-size: 13px;
+  color: #777;
+  margin-right: auto;
+}
+
+.deleteBtn,
+.editBtn {
+  border: none;
+  padding: 7px 12px;
+  border-radius: 7px;
+  cursor: pointer;
+  color: white;
+}
+
+.deleteBtn {
+  background-color: #e57373;
+}
+
+.editBtn {
+  background-color: #8e9aaf;
+}
